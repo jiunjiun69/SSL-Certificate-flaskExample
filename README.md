@@ -22,7 +22,7 @@ ssl_certificate_key /usr/local/etc/letsencrypt/live/<domain>/privkey.pem
 /usr/local/etc/nginx/nginx.conf
 ```
 
-Jails root
+### Jails root
 ```
 /mnt/<home>/iocage/jails/<app>/root
 ```
