@@ -31,3 +31,8 @@ ssl_certificate_key /usr/local/etc/letsencrypt/live/<domain>/privkey.pem
 ```
 /mnt/<home>/iocage/jails/<app>/root/usr/local/etc/letsencrypt/live/<domain>
 ```
+
+### Nginx restart
+```
+service nginx restart
+```
