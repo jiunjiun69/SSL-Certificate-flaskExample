@@ -9,6 +9,9 @@ flask run --host=host --port=port
 ```
 certbot certonly --nginx --email email@example.com --agree-tos -d example.com --dry-run
 ```
+
+or
+
 ```
 certbot certonly --manual --preferred-challenges http -m email@example.com -d example.com --dry-run
 ```
