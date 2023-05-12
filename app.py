@@ -21,7 +21,8 @@ def hello():
         # content = f.read()
     # return Response(content, mimetype='text/plain')
 
-@app.route("/.well-known/pki-validation/<path:filename>",methods=['GET', 'POST'])
+# @app.route("/.well-known/pki-validation/<path:filename>",methods=['GET', 'POST'])
+@app.route("/.well-known/acme-challenge/<path:filename>",methods=['GET', 'POST'])
 def txt(filename):
     path ='./cert/'+ filename
     with open(path, "r") as f:
